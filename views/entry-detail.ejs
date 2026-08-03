@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= entry.title %></title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <%- include('partials/header') %>
+
+    <main>
+      <article>
+        <h2><%= entry.title %></h2>
+        <p><%= entry.body %></p>
+      </article>
+
+      <p>
+        <a href="/entries">Back to all entries</a>
+      </p>
+    </main>
+
+    <footer>
+      <p>COMPSCI 326</p>
+    </footer>
+  </body>
+</html>

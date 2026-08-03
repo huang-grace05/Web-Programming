@@ -1,0 +1,36 @@
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0759a5;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.entry-list li {
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+}
